@@ -1,0 +1,44 @@
+@font-face {
+    font-family: blackRoseFont;
+    src: url(black-rose-font/BlackRose-2Onld.ttf);
+  }
+
+body{
+    font-family: blackRoseFont;
+    background-image: url(Images/Pirate_img.jpg);
+    
+}
+
+.navigation{
+    text-align: center;
+}
+
+textarea{
+    width:90%;
+    height:15vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: larger;
+    margin-top: 2vh;
+}
+
+.buttons{
+
+}
+
+
+#btn-translate, #btn-clear{
+    font-family: blackRoseFont;
+    margin-left: 2vh;
+}
+
+#output{
+    width:90%;
+    height:15vh;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: larger;
+    background-color: white;
+}
